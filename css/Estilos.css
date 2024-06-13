@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aqua;
+    height: 4em;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2em;
+    line-height: 4em;
+}
+
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+   font-size: 1.3em;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+header{
+     background-image: url('../img/fondo2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 2em;
+}
+
+.foto{
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px white;
+}
+
+header a{
+    color: aqua;
+    text-decoration: none;
+    text-shadow: 3px 3px 20px blue;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+header a:hover{
+    color: white;
+}
+
+header h1{
+    color: white;
+    text-shadow: 2px 2px 20px aqua;
+}
+
+section{
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 10px 10px 20px 5px black;
+}
+
+section h2{
+    color: aqua;
+    border-bottom: 4px aqua dashed;
+    margin: 2em 0;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+.destacado{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.azul{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+    margin: 0.5em;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.azul:hover{
+    color: gray;
+}
+
+.gris{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+    margin: 0.5em;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.gris:hover{
+    color: blue;
+}
+
+.fila{
+    margin: 1em;
+}
+
+.col{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo{
+    width: 33%;
+}
+
+.texto{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+#estudios .col{
+    width: 45%;
+}
+
+#estudios p{
+    padding: 0;
+}
+
+#proyecto .col{
+    width: 45%;
+}
+
+.formulario{
+    display: block;
+    border-radius: 15px;
+    border: 3px aqua solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#contactos .send:hover{
+    background-color: black;
+    color: white;
+}
+
+#contactos p{
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3em;
+}
+
+footer i{
+    font-size: 1.8em;
+    margin: 0.5em 0.3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: aqua;
+}
